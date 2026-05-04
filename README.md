@@ -1,29 +1,42 @@
-# Clickstream User Behavior & Conversion Funnel Analysis
+# E-commerce User Behavior & Conversion Funnel Analysis
 
-**Goal:** Analyze e‑commerce clickstream data to reconstruct user sessions, understand behavior, and measure conversion across the view → cart → purchase funnel.
+**Objective:** Analyze user behavior using clickstream data to identify conversion patterns, drop-off points, and opportunities to improve the user journey from product view to purchase.
 
-## Reconstructing User Sessions & Analyzing Conversion Funnel in Clickstream Data
+**Tools:** Python · Pandas · Matplotlib · Jupyter Notebook
 
-Tools: Python · Pandas · Matplotlib · Jupyter Notebook
+## Diagnosing Conversion Patterns Across 75K+ Clickstream Events
 
-Dataset: ~75K clickstream events and transactions from a simulated e‑commerce store  
+**Dataset:** ~75K clickstream events and transactions from a simulated e‑commerce store  
 https://www.kaggle.com/datasets/waqi786/e-commerce-clickstream-and-transaction-dataset
+
+This analysis examines how users interact with an e-commerce platform and how their actions translate into conversions. Using clickstream data, the project tracks user journeys across key events such as product views, add-to-cart actions, and purchases. By reconstructing user sessions and analyzing behavior across these stages, it identifies conversion patterns, user engagement trends, and critical drop-off points within the funnel. The goal is to uncover actionable insights to improve user experience, optimize the conversion process, and enhance overall business performance.
 
 ## Business Problem
 
-E‑commerce platforms need to understand how users interact with their system in order to improve engagement and conversion rates.
-This project answers the following key business questions:
-1. Which products receive the highest user interactions (views/clicks)?  
-2. How do users move through the funnel (view → cart → purchase)?  
-   - Where is the largest drop-off?  
-   - Which stage needs improvement?  
-3. How does revenue change over time based on purchase events?  
-   - Which products contribute most to revenue?  
-4. Which products have high views but low purchases?  
-   - Which products have the best conversion rates?  
-5. How do users behave on the platform?  
-   - Are there repeat users?  
-   - What actions are associated with purchases?  
+E-commerce platforms need to understand user behavior and conversion dynamics to optimize engagement, improve the user journey, and increase revenue.
+
+This project addresses the following key business questions:
+
+**Product Engagement:**
+- Which products receive the highest user interactions (views/clicks)?
+- Are high-engagement products effectively converting into purchases?
+
+**Conversion Funnel Analysis:**
+- How do users progress through the funnel (view → add-to-cart → purchase)?
+- At which stage does the largest drop-off occur?
+- Which stage requires optimization to improve conversion rates?
+
+**Revenue Insights:**
+- How does revenue evolve over time based on purchase activity?
+- Which products contribute the most to overall revenue?
+  
+**Product Conversion Performance:**
+- Which products have high visibility but low conversion rates?
+- Which products demonstrate strong conversion performance?
+  
+**User Behavior Analysis:**
+- What distinguishes repeat users from one-time users?
+- Which user actions are most strongly associated with successful conversions? 
 
 ## Tools & Techniques
 
