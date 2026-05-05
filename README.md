@@ -42,21 +42,20 @@ Despite strong engagement, key decision-making gaps remain:
 
 ## Key Analyses & Metrics
 
-- Product Interaction Analysis: Identified top-performing products based on user interactions (~74K events), highlighting high-engagement items.
-- Conversion Funnel Analysis: Evaluated session-level funnel (product view → add to cart → purchase) and identified significant drop-offs before the purchase stage.
-- Session Analysis: Reconstructed ~73K sessions (45-min threshold) with an average of ~74 sessions per user, indicating strong user engagement.
-- User Behavior Analysis: Compared repeat users vs one-time users, showing higher engagement among returning users.
-- Conversion Behavior Analysis: Analyzed 10K+ purchase sessions to understand actions leading to successful conversions.
+- **Product Interaction Analysis:** Identified top-performing products based on user interactions (~74K events), highlighting high-engagement items.
+- **Conversion Funnel Analysis:** Evaluated session-level funnel (product view → add to cart → purchase) and identified significant drop-offs before the purchase stage.
+- **Session Analysis:** Reconstructed ~73K sessions (45-min threshold) with an average of ~74 sessions per user, indicating strong user engagement.
+- **User Behavior Analysis:** Compared repeat users vs one-time users, showing higher engagement among returning users.
+- **Conversion Behavior Analysis:** Analyzed 10K+ purchase sessions to understand actions leading to successful conversions.
 
 ## Data Understanding & Cleaning
-
-The dataset was explored to understand its structure, event types, and relationships between users, sessions, and products.
-
-Timestamp fields were converted into datetime format to enable time-based analysis such as session creation and trend analysis.
-
-Missing values were examined across different event types, especially for fields that are only relevant to specific actions like purchases or cart events, ensuring accurate interpretation of user behavior.
-
-Relationships between users, sessions, and products were validated using keys such as session_id, user_id, and product_id to ensure consistency before performing aggregations and analysis.
+- Explored dataset structure (~74K records) to understand relationships between **users, sessions, and products**
+- Analyzed missing values:
+  - ProductID missing for non-product events
+  - Amount & Outcome present only for purchase events
+    -Ensured correct interpretation of event-specific data
+- Validated relationships using keys:
+  - UserID,session_id,ProductID
 
 ## Key Insights
 
