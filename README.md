@@ -81,6 +81,20 @@ Apply retargeting strategies and personalized recommendations for active and ret
 - **Enhance data tracking**
 Improve event tracking and sequencing to better capture user journeys and drop-off points
 
+## Key Visualizations
+
+### Funnel Analysis
+![Funnel](images/funnel_drop_off.png)
+
+### Conversion Rate
+![Conversion](images/conversion_rate.png)
+
+### User Behavior
+![User](images/user_behavior.png)
+
+### Monthly Revenue
+![Revenue](images/monthly_revenue.png)
+
 ##  Tools & Techniques
 
 * **Python** – Data preprocessing, sessionization, and behavioral analysis
