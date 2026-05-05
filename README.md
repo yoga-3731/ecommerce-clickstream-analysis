@@ -90,7 +90,7 @@ Improve event tracking and sequencing to better capture user journeys and drop-o
 ![Conversion](Images/Conversion_rate.png)
 
 ### User Behavior
-![User](Images/User_behavior.png)
+![User](Images/Users_behavior.png)
 
 ### Monthly Revenue
 ![Revenue](Images/Monthly_Revenue.png)
