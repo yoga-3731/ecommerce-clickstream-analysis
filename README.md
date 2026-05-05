@@ -31,21 +31,22 @@ Despite strong engagement, key decision-making gaps remain:
 - Which products contribute the most to overall revenue?
 - How do user sessions differ between converting and non-converting behavior?
 - Do repeat users (multiple sessions) show higher likelihood of purchase?
-  
-## This project investigates
 
-- How users move through the funnel from product view to add to cart to purchase
-- Which products have high visibility but low conversion rates
-- How revenue is distributed across products and changes over time
-- How users behave across sessions and what actions lead to successful purchases
+## Objective
+
+- Analyze ~74K clickstream events across 1000 users
+- Reconstruct ~73K sessions to study user behavior
+- Identify drop-offs in the conversion funnel
+- Examine behavior in 10K+ purchase sessions
+- Generate insights to improve conversion and engagement
 
 ## Key Analyses & Metrics
 
-- **Product interactions:** Top products by views/clicks and interactions by category.  
-- **Conversion funnel:** Session-level funnel from view → add-to-cart → purchase, with step-wise conversion and drop-off rates.  
-- **Revenue analysis:** Revenue trend over time (daily/weekly) and top revenue-contributing products and categories.  
-- **Product conversion:** View-to-purchase conversion rate per product, highlighting high-view low-conversion items.  
-- **User behavior:** One-time vs repeat users, and comparison of session behavior for purchasing vs non-purchasing sessions.
+- Product Interaction Analysis: Identified top-performing products based on user interactions (~74K events), highlighting high-engagement items.
+- Conversion Funnel Analysis: Evaluated session-level funnel (product view → add to cart → purchase) and identified significant drop-offs before the purchase stage.
+- Session Analysis: Reconstructed ~73K sessions (45-min threshold) with an average of ~74 sessions per user, indicating strong user engagement.
+- User Behavior Analysis: Compared repeat users vs one-time users, showing higher engagement among returning users.
+- Conversion Behavior Analysis: Analyzed 10K+ purchase sessions to understand actions leading to successful conversions.
 
 ## Data Understanding & Cleaning
 
