@@ -6,19 +6,31 @@
 
 **Dataset:** ~75K clickstream events and transactions from a simulated e‑commerce store  
 https://www.kaggle.com/datasets/waqi786/e-commerce-clickstream-and-transaction-dataset
+## 📊 Dataset Overview
 
-This analysis examines how users interact with an e-commerce platform and how their actions translate into conversions. Using clickstream data, the project tracks user journeys across key events such as product views, add-to-cart actions, and purchases. By reconstructing user sessions and analyzing behavior across these stages, it identifies conversion patterns, user engagement trends, and critical drop-off points within the funnel. The goal is to uncover actionable insights to improve user experience, optimize the conversion process, and enhance overall business performance.
+| Metric        | Value                                                                |
+| ------------- | -------------------------------------------------------------------- |
+| Total Records | 74,000+                                                              |
+| Unique Users  | 1000                                                                 |
+| Products      | 8700+                                                                |
+| Event Types   | page_view, product_view, add_to_cart, purchase, login, logout, click |
+
+Dataset contains user interaction events across multiple sessions.
 
 ## Business Problem
 
-An e-commerce platform with high user activity and approximately 73000 sessions is struggling to understand how user interactions translate into conversions and revenue.
+The e-commerce platform generates high user activity with ~73,000 sessions, but lacks clear visibility into how user interactions translate into conversions and revenue.
 
-Users are actively browsing and engaging with products, but the platform lacks clarity on
+Despite strong engagement, key decision-making gaps remain:
 
-- Where the conversion funnel breaks and why
-- Which products receive high attention but fail to convert
-- What user actions are most strongly associated with purchases
-- Which products contribute most to overall revenue
+**Key Questions**
+
+- Where does the conversion funnel break, and what causes drop-offs?
+- Which products receive high views but low purchases?
+- What user actions are most strongly associated with successful conversions?
+- Which products contribute the most to overall revenue?
+- How do user sessions differ between converting and non-converting behavior?
+- Do repeat users (multiple sessions) show higher likelihood of purchase?
   
 ## This project investigates
 
