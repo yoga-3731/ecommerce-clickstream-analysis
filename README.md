@@ -87,13 +87,13 @@ Improve event tracking and sequencing to better capture user journeys and drop-o
 ![Funnel](Images/Funnel_drop_off.png)
 
 ### Conversion Rate
-![Conversion](images/conversion_rate.png)
+![Conversion](Images/Conversion_rate.png)
 
 ### User Behavior
-![User](images/user_behavior.png)
+![User](Images/User_behavior.png)
 
 ### Monthly Revenue
-![Revenue](images/monthly_revenue.png)
+![Revenue](Images/Monthly_Revenue.png)
 
 ##  Tools & Techniques
 
