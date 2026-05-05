@@ -84,7 +84,7 @@ Improve event tracking and sequencing to better capture user journeys and drop-o
 ## Key Visualizations
 
 ### Funnel Analysis
-![Funnel](images/funnel_drop_off.png)
+![Funnel](Images/Funnel_drop_off.png)
 
 ### Conversion Rate
 ![Conversion](images/conversion_rate.png)
