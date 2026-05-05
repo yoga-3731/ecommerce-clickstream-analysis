@@ -32,13 +32,15 @@ Despite strong engagement, key decision-making gaps remain:
 - How do user sessions differ between converting and non-converting behavior?
 - Do repeat users (multiple sessions) show higher likelihood of purchase?
 
-## Objective
+## Key Metrics
 
-- Analyze ~74K clickstream events across 1000 users
-- Reconstruct ~73K sessions to study user behavior
-- Identify drop-offs in the conversion funnel
-- Examine behavior in 10K+ purchase sessions
-- Generate insights to improve conversion and engagement
+* Total Events: **74K+**
+* Total Users: **1000**
+* Total Sessions: **~73K**
+* Total Purchases: **10K+**
+* Avg Sessions per User: **~74**
+* Funnel Stages: **Product View → Cart → Purchase**
+
 
 ## Key Analyses & Metrics
 
