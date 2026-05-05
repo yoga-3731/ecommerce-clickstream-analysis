@@ -49,6 +49,7 @@ Despite strong engagement, key decision-making gaps remain:
 - **Conversion Behavior Analysis:** Analyzed 10K+ purchase sessions to understand actions leading to successful conversions.
 
 ## Data Understanding & Cleaning
+
 - Explored dataset structure (~74K records) to understand relationships between **users, sessions, and products**
 - Analyzed missing values:
   - ProductID missing for non-product events
@@ -59,31 +60,44 @@ Despite strong engagement, key decision-making gaps remain:
 
 ## Key Insights
 
-User engagement is high, with users performing multiple actions per session and returning frequently. This indicates strong platform activity and interest.
-
-The conversion funnel shows a high progression from product view to purchase within the dataset. While this suggests efficient movement through the funnel, it also indicates that the dataset may not fully capture real-world drop-offs.
-
-Several products receive high user attention but have low purchase counts. These represent missed revenue opportunities and potential issues in pricing, product presentation, or user experience.
-
-Revenue is concentrated among a smaller set of products, indicating that a few products drive a significant portion of business performance.
-
-User actions such as product views and add-to-cart events are strongly associated with purchases, highlighting the importance of engagement-driven conversion.
+- High user engagement observed with **~74 sessions per user on average**, indicating frequent return behavior
+- Conversion funnel shows strong progression across stages, with **10K+ purchase events**, suggesting active transaction behavior
+- Several products have **high views but low purchases**, indicating potential gaps in pricing, product presentation, or trust
+- Revenue is concentrated among a **small subset of products**, highlighting dependency on top-performing items
+- Purchase sessions include multiple interactions (views, cart actions), showing that **engagement-driven behavior leads to conversion**
 
 ## Business Recommendations
 
-Improve conversion for low-performing products by optimizing pricing, product descriptions, and visual presentation. Adding customer reviews and trust signals can also improve purchase confidence.
+- **Optimize low-converting products**
+  Improve pricing, product descriptions, and visuals; add reviews and trust signals to increase purchase confidence
+- **Reduce checkout friction**
+Simplify the add-to-cart → purchase flow and improve UI/UX for faster conversions
+- **Promote high-performing products**
+Use recommendations, featured listings, and targeted campaigns to maximize revenue
+- **Leverage user engagemen**t
+Apply retargeting strategies and personalized recommendations for active and returning users
+- **Enhance data tracking**
+Improve event tracking and sequencing to better capture user journeys and drop-off points
 
-Enhance the user journey by reducing friction in the add-to-cart to purchase stage. Simplifying checkout and improving user interface design can increase conversions.
+##  Tools & Techniques
 
-Focus on high-performing products by promoting them through recommendations, featured listings, and targeted campaigns.
+* **Python** – Data preprocessing, sessionization, and behavioral analysis
 
-Leverage user engagement by implementing personalized recommendations and retargeting strategies for active users.
+* **Pandas** – Groupby operations, aggregations, and session-level feature engineering
 
-Improve data tracking by ensuring proper event sequencing and capturing more realistic user drop-offs across the funnel.
+* **Matplotlib** – Visualization of event distributions and purchase behavior patterns
 
-## Tools & Techniques
+* **Jupyter Notebook** – Exploratory analysis and structured workflow execution
 
-- Python (data cleaning, transformation, analysis)  
-- Pandas (groupby, aggregations, joins, session‑level features)
-- Matplotlib (funnel charts, trend lines, bar plots)
-- Jupyter Notebook (exploratory analysis and storytelling)
+## Project Structure
+
+```
+├── data/
+│   └── ect.csv                  # Raw dataset
+├── notebooks/
+│   └── clickstream_analysis.ipynb   # Main analysis notebook
+├── outputs/
+│   └── charts/                  # Generated visualizations
+├── README.md                    # Project documentation
+```
+
