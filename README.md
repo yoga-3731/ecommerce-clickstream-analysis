@@ -101,5 +101,9 @@ Improve event tracking and sequencing to better capture user journeys and drop-o
 ├── outputs/
 │   └── charts/                  # Generated visualizations
 ├── README.md                    # Project documentation
+├── images/
+│   └── funnel_analysis.png
+│   └── session_distribution.png
+│   └── purchase_behavior.png
 ```
 
